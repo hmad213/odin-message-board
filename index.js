@@ -11,10 +11,6 @@ const indexRouter = require("./routes/indexRouter");
 
 app.use("/", indexRouter);
 
-app.use((req, res) => {
-  res.send("Hello world");
-});
-
 app.listen(PORT, (error) => {
   if (error) {
     throw error;
