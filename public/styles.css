@@ -84,3 +84,61 @@ main {
 .message > p {
   font-size: 1.1rem;
 }
+
+.new{
+    justify-content: center;
+}
+
+form{
+   background-color: #28282b;
+   align-self: center;
+   align-content: center;
+   max-width: 600px;
+   width: 100%;
+   padding: 30px;
+   border-radius: 20px;
+}
+
+form hr{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+form > p{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    gap: 5px;
+    font-size: 1.1rem;
+}
+
+form input, form textarea{
+    background-color: #343434;
+    border: none;
+    font-size: 1em;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form textarea{
+    resize: none;
+    height: 8em;
+    font-family: inherit;
+}
+
+form button{
+    display: block;
+    margin: auto;
+    background-color: #188d43;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+
+form button:hover{
+  background-color: #167a3b;
+}

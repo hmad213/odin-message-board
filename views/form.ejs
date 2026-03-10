@@ -8,18 +8,17 @@
 </head>
 <body>
     <%- include("navbar.ejs") %>
-    <main>
-        <h1>Add a new message</h1>
-        <hr>
+    <main class="new">
         <form method="POST" action="/new">
-            <h2>Message Details</h2>
+            <h2>Add a new message</h2>
+            <hr>
             <p>
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" required>
             </p>
             <p>
-                <label for="text">Text</label>
-                <input type="text" name="text" id="text" required>
+                <label for="text">Message</label>
+                <textarea name="text" id="text" required ></textarea>
             </p>
             <button type="submit">Submit</button>
         </form>
