@@ -9,6 +9,46 @@ const messages = [
     user: "Charles",
     added: new Date(),
   },
+  {
+    text: "How's everyone doing today?",
+    user: "Sophia",
+    added: new Date(),
+  },
+  {
+    text: "Just finished my project!",
+    user: "Liam",
+    added: new Date(),
+  },
+  {
+    text: "Anyone up for a game tonight?",
+    user: "Noah",
+    added: new Date(),
+  },
+  {
+    text: "Learning Express is pretty fun.",
+    user: "Olivia",
+    added: new Date(),
+  },
+  {
+    text: "Does anyone know a good JavaScript tutorial?",
+    user: "Ethan",
+    added: new Date(),
+  },
+  {
+    text: "Debugging code at 2 AM ",
+    user: "Ava",
+    added: new Date(),
+  },
+  {
+    text: "Finally fixed that bug!",
+    user: "Mason",
+    added: new Date(),
+  },
+  {
+    text: "Time for a coffee break",
+    user: "Isabella",
+    added: new Date(),
+  },
 ];
 
 const getIndex = (req, res) => {

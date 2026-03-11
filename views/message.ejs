@@ -9,9 +9,12 @@
 <body>
     <%- include("navbar.ejs") %>
     <main>
-        <h2><%= message.user %>'s Message</h2>
-        <h3><%= message.added %></h3>
-        <p><%= message.text %></p>
+        <div class="message-details">
+            <h2><%= message.user %>'s Message</h2>
+            <h3><%= message.added %></h3>
+            <hr>
+            <p><%= message.text %></p>
+        </div>
     </main>
 </body>
 </html>
