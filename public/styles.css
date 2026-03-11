@@ -90,6 +90,7 @@ main {
 
 .message > p {
   font-size: 1.1rem;
+  white-space: pre-line;
 }
 
 .new {
@@ -182,4 +183,5 @@ form button:hover {
   font-style: italic;
   font-size: 1.1rem;
   margin-top: 20px;
+  white-space: pre-line;
 }
