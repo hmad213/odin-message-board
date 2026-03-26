@@ -16,10 +16,10 @@
                 <div class="message">
                     <div>
                         <div>
-                            <h3><%= `${messages[i].user}` %></h3>
+                            <h3><%= `${messages[i].name}` %></h3>
                             <p><%=`${d.toLocaleString('en-US', {month: 'short',day: 'numeric',year: 'numeric',hour: 'numeric',minute: '2-digit',hour12: true})}`%></p>
                         </div>
-                        <a href="message/<%= i + 1 %>"><img src="/output.svg" alt=""></a>
+                        <a href="message/<%= messages[i].id %>"><img src="/output.svg" alt=""></a>
                     </div>
                     <hr>
                     <p><%= messages[i].text %></p>
